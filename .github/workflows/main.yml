@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: misskartar/hello-world-javascript-action
+        uses: misskartar/hello-world-javascript-action@v1.1
         with:
           who-to-greet: "Kartar"
       # Use the output from the `hello` step
